@@ -28,5 +28,16 @@
   
   ![image](https://github.com/AyeshaIrshad1337/Advance-Learning-Algorithm/assets/104616632/e0d0c6da-2c55-4c5b-821a-daf4d5ef0d09)
   
-  There are some additional details that I didn't go over here, such as how to load the TensorFlow library and how to also load the parameters w and b of the neural network. But we'll go over that in the lab. Please be sure to take a look at the lab. But these are the key steps for forward propagation in how you compute a1 and a2 and optionally threshold a2. Let's look at one more example and we're going to go back to the handwritten digit classification problem. In this example, x is a list of the pixel intensity values. So x is equal to a numpy array of this list of pixel intensity values. Then to initialize and carry out one step of forward propagation, Layer 1 is a dense layer with 25 units and the sigmoid activation function. You then compute a1 equals the Layer 1 function applied to x. To build and carry out inference through the second layer, similarly, you set up Layer 2 as follows, and then computes a2 as Layer 2 applied to a1. Then finally, Layer 3 is the third and final dense layer. Then finally, you can optionally threshold a3 to come up with a binary prediction for y-hat. That's the syntax for carrying out inference in TensorFlow. One thing I briefly alluded to is the structure of the numpy arrays. TensorFlow treats data in a certain way that is important to get right. In the next video, let's take a look at how TensorFlow handles data.
+  There are some additional details that I didn't go over here, such as how to load the TensorFlow library and how to also load the parameters w and b of the neural network. But we'll go over that in the lab. Please be sure to take a look at the lab. But these are the key steps for forward propagation in how you compute a1 and a2 and optionally threshold a2. 
+    
+####  Let's look at one more example 
+    
+  ![image](https://github.com/AyeshaIrshad1337/Advance-Learning-Algorithm/assets/104616632/665c1ac3-dd5b-4a50-b01a-0a5e2a7ce015)
+
+ In this example, x is a list of the pixel intensity values. So x is equal to a numpy array of this list of pixel intensity values. Then to initialize and carry out one step of forward propagation, Layer 1 is a dense layer with 25 units and the sigmoid activation function. You then compute a1 equals the Layer 1 function applied to x. To build and carry out inference through the second layer, similarly, you set up Layer 2 as follows, and then computes a2 as Layer 2 applied to a1. Then finally, Layer 3 is the third and final dense layer. Then finally, you can optionally threshold a3 to come up with a binary prediction for y-hat. 
+    
+  ![image](https://github.com/AyeshaIrshad1337/Advance-Learning-Algorithm/assets/104616632/3bfab1b2-4532-4be6-9039-d1587079a7ce)
+
+    
+  That's the syntax for carrying out inference in TensorFlow. One thing I briefly alluded to is the structure of the numpy arrays. TensorFlow treats data in a certain way that is important to get right.
 </details>
