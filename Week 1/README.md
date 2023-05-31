@@ -1,6 +1,9 @@
 # Neural Network Intuition
 <details>
   <summary>Neurons and the brain</summary>
+    
+  <hr>
+    
   
   When neural networks were first invented many decades ago, the original motivation was to write software that could mimic how the human brain or how the biological brain learns and thinks. Even though today, neural networks, sometimes also called artificial neural networks, have become very different than how any of us might think about how the brain actually works and learns. Some of the biological motivations still remain in the way we think about artificial neural networks or computer neural networks today. Let's start by taking a look at how the brain works and how that relates to neural networks.   
     
