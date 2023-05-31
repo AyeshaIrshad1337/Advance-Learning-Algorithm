@@ -1,3 +1,29 @@
+# Neural Network Intuition
+<details>
+  <summary>Neurons and the brain</summary>
+  
+  When neural networks were first invented many decades ago, the original motivation was to write software that could mimic how the human brain or how the biological brain learns and thinks. Even though today, neural networks, sometimes also called artificial neural networks, have become very different than how any of us might think about how the brain actually works and learns. Some of the biological motivations still remain in the way we think about artificial neural networks or computer neural networks today. Let's start by taking a look at how the brain works and how that relates to neural networks.   
+    
+Even though today's neural networks have almost nothing to do with how the brain learns, there was the early motivation of trying to build software to mimic the brain. So how does the brain work? Here's a diagram illustrating what neurons in a brain look like. 
+    
+  ![image](https://github.com/AyeshaIrshad1337/Advance-Learning-Algorithm/assets/104616632/f51a09f7-a3b3-4cc4-9a82-f8d0cab2956d)
+
+    
+  All of human thought is from neurons like this in your brain and mine, sending electrical impulses and sometimes forming new connections of other neurons. Given a neuron like this one, it has a number of inputs where it receives electrical impulses from other neurons, and then this neuron that I've circled carries out some computations and will then send this outputs to other neurons by this electrical impulses, and this upper neuron's output in turn becomes the input to this neuron down below, which again aggregates inputs from multiple other neurons to then maybe send its own output, to yet other neurons, and this is the stuff of which human thought is made. 
+    
+  ![image](https://github.com/AyeshaIrshad1337/Advance-Learning-Algorithm/assets/104616632/dd72218b-9b72-4339-ab16-b550bbed6590)
+  
+  
+  Here's a simplified diagram of a biological neuron. A neuron comprises a cell body shown here on the left, and if you have taken a class in biology, you may recognize this to be the nucleus of the neuron. As we saw on the previous slide, the neuron has different inputs. In a biological neuron, the input wires are called the dendrites, and it then occasionally sends electrical impulses to other neurons via the output wire, which is called the axon. Don't worry about these biological terms. If you saw them in a biology class, you may remember them, but you don't really need to memorize any of these terms for the purpose of building artificial neural networks. But this biological neuron may then send electrical impulses that become the input to another neuron. So the artificial neural network uses a very simplified Mathematical model of what a biological neuron does. I'm going to draw a little circle here to denote a single neuron. What a neuron does is it takes some inputs, one or more inputs, which are just numbers. It does some computation and it outputs some other number, which then could be an input to a second neuron, shown here on the right. When you're building an artificial neural network or deep learning algorithm, rather than building one neuron at a time, you often want to simulate many such neurons at the same time. In this diagram, I'm drawing three neurons. What these neurons do collectively is input a few numbers, carry out some computation, and output some other numbers.  
+  ### Why is it that only in the last handful of years that neural networks have really taken off?
+    
+  ![image](https://github.com/AyeshaIrshad1337/Advance-Learning-Algorithm/assets/104616632/fe6de8e1-bd09-4613-83c5-42169d6dbb69)
+
+  Let see the plot on the horizontal axis the amount of data you have for a problem, and on the vertical axis, the performance or the accuracy of a learning algorithm applied to that problem.  
+  Due the rise of data thanks to internet and rise of processors i.e Faster computer process GPU. Now we can use large neural network on large data which will give us a high performance.
+
+</details>
+
 # TensorFlow Implementation 
 <details>
   <summary>Inference in Code</summary>
